@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guest List</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tr{
+			background-color: #e4e467af;
+		}
+	</style>
+</head>
+<body>
+	<h1><center>Guest List</center></h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>Email</th>
+				<th>Phone</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+			<tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+            <tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+            <tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+            <tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+            <tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+            <tr>
+				<td>John Smith</td>
+				<td>123 Main St.</td>
+				<td>john@example.com</td>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>Jane Doe</td>
+				<td>456 Park Ave.</td>
+				<td>jane@example.com</td>
+				<td>555-5678</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
