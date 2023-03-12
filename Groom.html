@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Groom Details and Itinerary</title>
+        <style>
+            body {
+                background:rgb(255, 227, 190);
+                color:  black;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+            padding: 20px;
+            height: 20px;
+            }
+            
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+
+            li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            
+
+            /* Style the container */
+            .container {
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            }
+
+            /* Style the headings */
+            h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #008CBA;
+            text-shadow: 2px 2px #ddd;
+            }
+
+            h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #008CBA;
+            text-shadow: 1px 1px #ddd;
+            }
+
+            /* Style the bride's photo */
+            .bride-photo {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            /* Style the details table */
+            .details-table {
+            margin: 0 auto;
+            width: 80%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            }
+
+            .details-table th, .details-table td {
+            padding: 10px;
+            text-align: left;
+            border: none;
+            border-bottom: 1px solid #ddd;
+            }
+
+            .details-table th {
+            color: #008CBA;
+            text-shadow: 1px 1px #ddd;
+            font-weight: bold;
+            }
+
+            .details-table td {
+            font-size: 18px;
+            }
+
+            /* Style the itinerary table */
+            .itinerary-table {
+            margin: 0 auto;
+            width: 80%;
+            border-collapse: collapse;
+            }
+
+            .itinerary-table th, .itinerary-table td {
+            padding: 10px;
+            text-align: left;
+            border: none;
+            border-bottom: 1px solid #ddd;
+            }
+
+            .itinerary-table th {
+            color: #008CBA;
+            text-shadow: 1px 1px #ddd;
+            font-weight: bold;
+            }
+
+            .itinerary-table td {
+            font-size: 18px;
+            }
+
+            /* Style the back button */
+            .back-button {
+            display: inline-block;
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.2s;
+            }
+
+            .back-button:hover {
+            background-color: #005A6E;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>Groom Details and Itinerary</h1>
+            <img src="images/groom.png" alt="Bride Photo" class="bride-photo">
+            <table class="details-table">
+                <tr>
+                    <th>Name:</th>
+                    <td>Mark</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth:</th>
+                <td>January 1, 1990</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>mark@example.com</td>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <td>(123) 456-7890</td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>123 Main St, Anytown USA</td>
+                </tr>
+            </table>
+            <h2>Itinerary for the Day</h2>
+            <table class="itinerary-table">
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Hair and Makeup</td>
+                    <td>Salon</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Wedding Ceremony</td>
+                    <td>Church</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Photo Shoot</td>
+                    <td>Park</td>
+                </tr>
+                <tr>
+                    <td>5:00 PM</td>
+                    <td>Reception</td>
+                    <td>Hotel Ballroom</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

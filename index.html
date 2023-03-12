@@ -1,18 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="plannerLogin.css">
-    <title>Login</title>
-  </head>
-  <body>
-    <h1>Join as Planner</h1>
-    <form action="home.html" method="post">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
-      <input type="submit" value="Login">
-      <a href="guestLogin.html">Not a planner? Join as Guest!</a>
-    </form>
-  </body>
+    <head>
+        <title>My Page!</title>
+        <style>
+            body {
+                background:rgb(255, 227, 190);
+                color: white;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color : (255, 227, 190);
+                padding: 20px;
+                height: 20px;
+            }
+
+            section {
+                background: white;
+                color: gray;
+                padding: 20px;
+                flex-direction: row;
+            }
+
+            div {
+                color: red;
+                margin: auto;
+                width: 200px;
+
+
+            }
+
+            footer {
+                background: black;
+                padding: 10px 20px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+
+            li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            button {
+                height: 70px;
+                width: 150px;
+            }
+
+            button:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+        </style>>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div><button onclick="window.location.href = 'Venue.html';">Venue</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'List.html';">List of Guests</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Meal.html';">Meals Planning</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Budget.html';">Budgets</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Invitations.html';">Invitation</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Itinerary.html';">Itinerary</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Bride.html';">Bride</button></div>
+            <br><br>
+            <div><button onclick="window.location.href = 'Groom.html';">Groom</button></div>
+            <br><br>
+        </section>
+        <section>lower-section</section>
+        <footer>footer</footer>
+    </body>
 </html>
