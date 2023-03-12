@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seat Information</title>
+    <link rel="stylesheet" type="text/css" href="guestSeat.css">
+    <script>
+        window.onload = function() {
+            var tables = document.getElementsByTagName("td");
+            for (var i = 0; i < tables.length; i++) {
+                tables[i].addEventListener("click", function() {
+                    // Create the pop-up window
+                    var popup = document.createElement("div");
+                    popup.id = "popup";
+                    popup.className = "popup";
+    
+                    // Create the pop-up content
+                    var popupContent = document.createElement("div");
+                    popupContent.className = "popup-content";
+    
+                    // Create the close button
+                    var closeButton = document.createElement("span");
+    
+                    // Create the title
+                    var title = document.createElement("h2");
+                    title.innerHTML = "Guest Information";
+    
+                    // Create the guest information paragraph
+                    var guestInfo = document.createElement("p");
+                    guestInfo.id = "guest-info";
+                    guestInfo.innerHTML = "Guest information will appear here:<br>1: John Smith<br> 2: Jane Doe<br> 3: Bob Johnson<br> 4: James Young<br>";
+            
+    
+                    // Add the content to the pop-up window
+                    popupContent.appendChild(closeButton);
+                    popupContent.appendChild(title);
+                    popupContent.appendChild(guestInfo);
+                    popup.appendChild(popupContent);
+    
+                    // Add the pop-up window to the body
+                    document.body.appendChild(popup);
+    
+                    // Show the pop-up window
+                    popup.style.display = "block";
+    
+                    // When the user clicks anywhere outside of the pop-up, close it
+                    window.onclick = function(event) {
+                        if (event.target == popup) {
+                            popup.style.display = "none";
+                        }
+                    };
+                });
+            }
+        };
+    </script>
+    
+</head>
+<body>
+	<h1>Welcome to our event!</h1>
+	<p>Please find your table below and take a seat.</p>
+	<table>
+		<tr>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 1</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 4</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 7</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 10</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 13</td>
+		</tr>
+		<tr>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 2</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 5</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 8</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 11</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 14</td>
+		</tr>
+		<tr>
+			<td class="highlight"><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696492.png"><br>Table 3</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 6</td>
+			<td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 9</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 12</td>
+            <td><img class="table-image" src="https://cdn-icons-png.flaticon.com/512/5696/5696345.png"><br>Table 15</td>
+		</tr>
+	</table>
+	<p>If you have any questions or concerns, please don't hesitate to ask one of our staff members. Enjoy the event!</p>
+</body>
+</html>
